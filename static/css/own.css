@@ -1,0 +1,70 @@
+.bg-green{
+  background: #3BC1BD;
+}
+.mr-3{
+  border:1px solid #fff;
+  border-radius: 5px;
+}
+
+
+.bs-docs-example{
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.bs-docs-example::after{
+    content: "实例";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #9da0a4;
+    -webkit-border-radius: 4px 0 4px 0;
+    -moz-border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 4px 0;
+}
+
+
+.prettyprint.linenums{
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+  -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+  box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+.bs-docs-example + .prettyprint {
+    margin-top: -20px;
+    padding-top: 15px;
+}
+pre.prettyprint {
+    margin-bottom: 20px;
+}
+.prettyprint {
+    padding: 0px;
+    padding-top: 8px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+pre {
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+pre code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
